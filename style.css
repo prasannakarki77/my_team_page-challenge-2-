@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5% 20% 0 20%;
+}
+.heading h1 {
+  font-family: PT Serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+}
+
+.desc {
+  max-width: 439px;
+}
+.desc p {
+  font-size: 1rem;
+  line-height: 27px;
+}
+.desc h3 {
+  font-size: 1.7rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.team {
+  margin: 96px 20% 0 20%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10%;
+}
+figure img {
+  width: 100%;
+  font-size: 1em;
+}
+figure {
+  position: relative;
+}
+figure:nth-of-type(3n-1) {
+  margin-top: 3rem;
+}
+figcaption {
+  font-weight: 600;
+}
+figcaption span {
+  position: absolute;
+  top: 0;
+  font-weight: 400;
+  right: -1.5rem;
+  writing-mode: vertical-rl;
+  text-transform: uppercase;
+  text-orientation: sideways;
+}
+
+#footer {
+  margin-top: 350px;
+  text-align: center;
+  color: #a9a9a9;
+}
+@media (max-width: 1279px) {
+  .desc {
+    margin-top: 5%;
+  }
+}
+@media (max-width: 769px) {
+  * {
+    font-size: 15px;
+  }
+  div.team {
+    margin: 96px 8% 0 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+  }
+  figure:nth-of-type(3n-1) {
+    margin-top: 0;
+  }
+  figure:nth-of-type(even) {
+    margin-top: 3rem;
+  }
+
+  .heading {
+    margin: 5% 5% 0 5%;
+  }
+  .desc {
+    margin-top: 5%;
+  }
+}
+
+@media (max-width: 415px) {
+  * {
+    font-size: 10px;
+  }
+  div.team {
+    margin: 96px 5% 0 3%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+  }
+  .heading {
+    margin: 5% 2% 0 2%;
+  }
+}
