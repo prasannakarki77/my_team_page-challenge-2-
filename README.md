@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/prasannakarki77/my_team_page-challenge-2-.git">
+    <a href="https://devchallenges.io/solutions/V8kPoTDijMfXJ1Knb3Jw">
       Solution
     </a>
     <span> | </span>
@@ -27,6 +27,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+  - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
 
@@ -34,8 +35,15 @@
 
 ## Overview
 
-![screenshot](./overview1.png)
-![screenshot](./overview2.png)
+![screenshot](images/overview1.png)
+![screenshot](images/overview2.png)
+
+### Built With
+
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+
+- HTML
+- CSS
 
 ## Features
 
